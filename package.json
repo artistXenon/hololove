@@ -1,0 +1,24 @@
+{
+  "name": "hololove",
+  "version": "1.0.0",
+  "description": "hololive fan rhythm game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artistXenon/hololove.git"
+  },
+  "keywords": [
+    "game",
+    "music",
+    "hololive"
+  ],
+  "author": "Ailre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artistXenon/hololove/issues"
+  },
+  "homepage": "https://github.com/artistXenon/hololove#readme"
+}
