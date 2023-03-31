@@ -4,6 +4,7 @@
   "description": "hololive fan rhythm game",
   "main": "index.js",
   "scripts": {
+    "serve": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/artistXenon/hololove/issues"
   },
-  "homepage": "https://github.com/artistXenon/hololove#readme"
+  "homepage": "https://github.com/artistXenon/hololove#readme",
+  "devDependencies": {
+    "canvas": "^2.11.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "artistic-engine": "github:pride-Artistic/artistic-engine#ae-193",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
 }
